@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+body {
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.backg{
+    background-color: #eeeeee;
+}
+
+.content{
+    margin-top:8%;
+    font-family: 'Montserrat', sans-serif!important;
+   
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+#head{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+}
+
+#jumbotron{
+    background-image: url('/images/pic.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+footer {
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+    background-color: #dee2e6;
+}
+
+.lead a,hr{
+    color: #333333!important;
+}
+
+ a:hover{
+    color:#ffffffa1 !important;
+    
+} 
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+div a {
+
+    color: #888888;
+    margin-right: 20px;
+    text-decoration: none !important;
+}
+
+.portrait {
+    width: 250px;
+}
+
+input{
+    border:1px solid #cccccc;
+    padding: 8px;
+    border-radius: 11px;
+    margin-right: 5px;
+    margin-bottom: 7px;
+}
+
+input:focus{
+    outline:none;
+}
+
+.container{
+    margin-bottom: 0!important;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: #80808021;
+    width: 100%;
+    padding-top: 33px;
+}
+footer p{
+    margin-left: 10px;
+    color: #117a8b;
+}
+footer p a{
+    color: black;
+    font-style: italic;
+}
+footer p a:hover{
+    color:#117a8b !important;
+}
+
+button{
+    cursor: pointer;
+    border:none;
+    color:white;
+    background: #ff00009e;
+    padding:8px  12px;
+    border-radius: 15px;
+    -webkit-box-shadow: 5px 5px 15px -7px #5B5B5B; 
+box-shadow: 5px 5px 15px -7px #5B5B5B;
+}
+button:hover{
+    background: #f31d1d9e;
+}
+
+button:focus{
+    outline:none;
+    background: #ff0000b7;
+}
+
+#messageTwo{
+    font-size: 140%;
+    font-family: 'Roboto Mono', monospace;
+    color: darkslategrey;
+}
+#messageOne{
+    font-size: 140%;
+    font-family: 'Roboto Mono', monospace;
+    color:green;
+}
